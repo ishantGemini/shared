@@ -39,7 +39,7 @@
     "@types/react": "^18.0.0"
   },
   "scripts": {
-    "start": "webpack serve --config webpack.config.js",
+    "start": "webpack serve --open --mode development",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",

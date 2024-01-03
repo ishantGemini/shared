@@ -13,6 +13,9 @@ const htmlPlugin = new HtmlWebPackPlugin({
 module.exports = {
   mode: "development",
   entry: "./src/index.tsx",
+  output: {
+    publicPath: "http://localhost:3001/",
+  },
   devServer: {
     static: [
       { directory: path.join(__dirname, "dist") },
