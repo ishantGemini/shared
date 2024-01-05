@@ -32,7 +32,7 @@ function CustomSharedButton({
       className={cns(
         className,
         !text ? "p-1 " : "px-5 py-2.5",
-        "hover:shadow-md flex-center gap-2 hover:bg-primary-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm text-center"
+        "flex hover:shadow-md flex-center gap-2 hover:bg-primary-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm text-center"
       )}
       // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}
