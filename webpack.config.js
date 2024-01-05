@@ -24,9 +24,7 @@ module.exports = {
       { directory: path.join(__dirname, "public") }
     ],
     port: 3001,
-    historyApiFallback: {
-      index: "./public/index.html"
-    }
+    historyApiFallback: true
   },
 
   module: {
